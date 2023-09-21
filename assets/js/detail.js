@@ -21,6 +21,10 @@ const showDetailJs = (item) => {
   const detailImg = item.img;
   const detailTitle = item.title;
   const detailPrice = item.price;
+  const detailDes1 = item.description1;
+  const detailDes2 = item.description2;
+  const detailDes3 = item.description3;
+  const detailDes4 = item.description4;
 
   console.log('nameImg.img');
   showDetail.innerHTML = `
@@ -35,10 +39,10 @@ const showDetailJs = (item) => {
         <h1>${detailTitle}</h1>
         <div class="price">${detailPrice}</div>
         <div class="content">
-          <p>Dệt từ len lông cừu siêu mỏng,thích hợp cho điều kiện thời tiết mùa hè, sợi len co giãn linh hoạt
-            thoáng khí, với bo cổ và hình in được dệt liền khối. </p>
-          <p>không sấy tránh co rút sợi, khi phơi nên gấp ngang áo ko móc kéo tránh áo bị biến dạng.</p>
-          <p>100% cotton</p>
+          <p>${detailDes1}</p>
+          <p>${detailDes2}</p>
+          <p>${detailDes3}</p>
+          <p>${detailDes4}</p>
         </div>
       </div>
 
