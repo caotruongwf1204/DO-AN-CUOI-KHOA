@@ -89,7 +89,8 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
 
 .nav-detail-plus {
@@ -98,7 +99,8 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
 
 .detail-item {

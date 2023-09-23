@@ -38,24 +38,3 @@ const products = (data) => {
 products();
 
 
-
-
-
-const input = document.querySelector('.input-search');
-const button = document.querySelector('.btn-search');
-
-// Function Search Film
-input.addEventListener('submit', (event) => {
-  event.preventDefault();
-
-  let valueInput = input.value;
-  // console.log(valueInput);
-
-  if (valueInput && valueInput !== '') {
-    const apiSearch = URL_API + `?title_like=${valueInput}`;
-    getApi(apiSearch);
-    input.value = '';
-  } else {
-    window.location.reload();
-  }
-});

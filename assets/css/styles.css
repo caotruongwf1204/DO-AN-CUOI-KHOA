@@ -317,6 +317,7 @@ ul {
 .header .menu .sub-menu {
   position: absolute;
   top: 100%;
+  left: -200px;
   background-color: #eeeded;
   width: 300px;
   display: none;

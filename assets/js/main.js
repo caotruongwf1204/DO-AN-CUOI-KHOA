@@ -130,5 +130,22 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   };
   tabsLogin();
+
+
+  // producst list
+  const listPro = () => {
+    const producstList = document.querySelectorAll('.btn-list');
+   
+    producstList.forEach((button, index) => {
+      
+      button.addEventListener('click', () => {
+        producstList.forEach((item) => {
+          item.classList.remove('active-list');
+          button.classList.add('active-list');
+        });
+      });
+    })
+  };
+  listPro();
   
 });
