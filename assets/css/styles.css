@@ -645,6 +645,20 @@ ul {
   transition: .3s ease-in-out;
 }
 
+.cart-shopping {
+  position: relative;
+}
+
+.cart-quantity {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  padding: 0 5px;
+  font-size: 14px;
+  border-radius: 10px;
+}
 /* === header./end === */
 
 

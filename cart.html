@@ -261,40 +261,8 @@
                   <th></th>
                 </tr>
               </thead>
-              <tbody>
-                <tr class="table-mobile">
-                  <td class="table-mobile-products">
-                    <div class="cart-pro-show">
-                      <div class="cart-pro-img">
-                        <img src="./assets/images/TIGER STRIPPED LENINN TEE.jpg" alt="">
-                      </div>
-                      <div class="cart-pro-title">
-                        <span>TIGER STRIPPED LENINN TEE</span>
-                        <div class="cart-pro-size">
-                          <span>[S]</span>
-                        </div>
-                      </div>
-                    </div>
-                  </td>
-                  <div>
-                    <td>
-                      <div class="detail-quantity">
-                        Số lượng :
-                        <div class="nav-detail">
-                          <div class="nav-detail-minus">-</div>
-                          <input class="detail-input" type="number" readonly value="1">
-                          <div class="nav-detail-plus">+</div>
-                        </div>
-                      </div>
-                    </td>
-                    <td><div class="cart-price">550.000 ₫</div></td>
-                    <td>
-                      <div class="cart-close">
-                        <i class="fa-solid fa-trash-can"></i>
-                      </div>
-                    </td>
-                  </div>
-                </tr>
+              <tbody id="cart-show-js">
+                
               </tbody>
             </table>
             <div class="cart-discount">
@@ -304,7 +272,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-12 col-12">
-          <div class="cart-quantity">
+          <div class="cart-pay">
             <h2>THÀNH TIỀN</h2>
             <div class="cart-mn">Tạm tính
               <span>550.000 ₫</span>
@@ -377,7 +345,8 @@
   <!-- === footer./end === -->
 
 
-
+  <!-- import jquery -->
+  <script src="./lib/axios.min.js"></script>
   <!-- import jquery -->
   <script src="./lib/jquery-3.7.0.min.js"></script>
   <!-- import boostrap -->

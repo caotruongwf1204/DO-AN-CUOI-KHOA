@@ -3,7 +3,7 @@
       {
         "id": 1,
         "title": "LENINN CREAM BUCKET HAT",
-        "price": "290,000 đ",
+        "price": 290000,
         "img": "./assets/images/lennin-hat01.jpg",
         "description1": "◼️ Vải đã được qua xử lý stone wash nhẹ, tạo cảm giác cũ kĩ có chủ đích.",
         "description2": "◼️ Logo thêu nổi phía trước và chạy chỉ trang trí trên phần đỉnh của mũ.",
@@ -13,7 +13,7 @@
       {
         "id": 2,
         "title": "COW FARM LENINN TEE",
-        "price": "550,000 đ",
+        "price": 550000,
         "img": "./assets/images/COW FARM LENINN TEE.jpg",
         "description1": "◾️ Dệt từ len lông cừu siêu mỏng,thích hợp cho điều kiện thời tiết mùa hè, sợi len co giãn linh hoạt thoáng khí, với bo cổ và hình in được dệt liền khối. ",
         "description2": "◾️ không sấy tránh co rút sợi, khi phơi nên gấp ngang áo ko móc kéo tránh áo bị biến dạng. ",
@@ -23,7 +23,7 @@
       {
         "id": 3,
         "title": "RAGLAN BLAZER",
-        "price": "950,000 đ",
+        "price": 950000,
         "img": "./assets/images/RAGLAN BLAZER.jpg",
         "description1": "◾️ Blazer cách tân với tay áo ghép chéo , tạo dáng suông thẳng ko cầu vai.",
         "description2": "◾️ Cổ áo giữ nguyên theo dáng truyền thống, cúc và các khuyết thùa chỉ ba màu khác nhau.",
@@ -33,7 +33,7 @@
       {
         "id": 4,
         "title": "BLUE OVERSIZED WASHED DENIM SHIRT",
-        "price": "650,000 đ",
+        "price": 650000,
         "img": "./assets/images/BLUE OVERSIZED WASHED DENIM SHIRT.jpg",
         "description1": "◾️ Sơmi chất liệu denim, giặt bạc thành phẩm sau khi may hoàn thiện.",
         "description2": "◾️ Chất liệu vải dày và mềm mại, đính cúc kim loại có logo trên tất cả các vị trí thân trước và bo tay.",
@@ -43,7 +43,7 @@
       {
         "id": 5,
         "title": "HOLE PUNCHER BLACK DENIM SHORT",
-        "price": "650,000 đ",
+        "price": 650000,
         "img": "./assets/images/4-HOLE PUNCHER BLACK DENIM SHORT.jpg",
         "description1": "Non-stretch denim shorts. Fading throughout.",
         "description2": "",
@@ -53,7 +53,7 @@
       {
         "id": 6,
         "title": "LENINN STONE WASHED CAP",
-        "price": "320,000 đ",
+        "price": 320000,
         "img": "./assets/images/lennin-02hat.jpg",
         "description1": "◼️ 100% cotton tự nhiên, vải đã được qua xử lý stone wash nhẹ, tạo cảm giác cũ kĩ có chủ đích.",
         "description2": "◼️ Mũ thêu typo nét dày nổi ở phía trước và sau, lót mềm phía trong.",
@@ -63,7 +63,7 @@
       {
         "id": 7,
         "title": "M&M BLACK DENIM JACKET",
-        "price": "1,250,000 đ",
+        "price": 1250000,
         "img": "./assets/images/M&M BLACK DENIM JACKET.jpg",
         "description1": "Non-stretch denim jacket. Printed graphics, fading and whiskering throughout.",
         "description2": "Spread collar,Button closure,Removable padded shoulders,Logo printed inside,Flap pockets and welt pockets,Single-button barrel cuffs,Button tabs at back hem,Leather logo patch at sleeve,Logo-engraved silver-tone hardware",
@@ -73,7 +73,7 @@
       {
         "id": 8,
         "title": "HOLE PUNCHER BLUE JEANS",
-        "price": "950,000 đ",
+        "price": 950000,
         "img": "./assets/images/4-HOLE PUNCHER BLUE JEANS.jpg",
         "description1": "Non-stretch denim jeans. Fading, distressing effect throughout.",
         "description2": "Belt loops, Adjustable mini cinch belts at waist, Zip-fly, Five-pocket styling, Logo graphic pattern printed at outseams, Contrast stitching in tan",
@@ -83,7 +83,7 @@
       {
         "id": 9,
         "title": "AMBER THIS IS SKATEBOARDING HOODIE",
-        "price": "650,000 đ",
+        "price": 650000,
         "img": "./assets/images/AMBER THIS IS SKATEBOARDING HOODIE.jpg",
         "description1": "◾️ Định lượng 380gsm siêu dày, tạo form dáng và giữ nhiệt tốt, mặt bông bên trong đã được xử lý giặt enzyme tránh ra mùn vải khi sử dụng.",
         "description2": "◾️ In lưới chuyển nhiệt mix cùng công nghệ ép phồng tạo hiệu ứng xếp lớp nhẹ, hình in sắc nét, khó bong tróc, gãy nứt.",
@@ -93,7 +93,7 @@
       {
         "id": 10,
         "title": "BLACK CORDUROY STRETCH PANTS",
-        "price": "490,000 đ",
+        "price": 490000,
         "img": "./assets/images/BLACK CORDUROY STRETCH PANTS.png",
         "description1": "◾️ Sử dụng vải nhung tăm pinwale, co giãn nhẹ, tạo dáng suông thẳng mềm mại, thích nghi tốt với mọi outfit từ cơ bản cho tới phức tap.",
         "description2": "◾️ Enzyme wash giúp vải xốp hơn, chống co ngót sau khi giặt và sử dụng.",
@@ -103,7 +103,7 @@
       {
         "id": 11,
         "title": "HOLE PUNCHER BLUE DENIM SHIRT",
-        "price": "950,000 đ",
+        "price": 950000,
         "img": "./assets/images/HOLE PUNCHER BLUE DENIM SHIRT.jpg",
         "description1": "Non-stretch denim shirt. Fading throughout.",
         "description2": "Spread collar, Button closure, 4-patch pockets with graphic embroidered by hand, Adjustable single-button barrel cuffs, Logo laser carving on back collar, Box pleat at back yoke, Shirttail hem, Contrast stitching in tan",
@@ -113,7 +113,7 @@
       {
         "id": 12,
         "title": "TIGER STRIPPED LENINN TEE",
-        "price": "550,000 đ",
+        "price": 550000,
         "img": "./assets/images/TIGER STRIPPED LENINN TEE.jpg",
         "description1": "◾️ Dệt từ len lông cừu siêu mỏng,thích hợp cho điều kiện thời tiết mùa hè, sợi len co giãn linh hoạt thoáng khí, với bo cổ và hình in được dệt liền khối. ",
         "description2": "◾️ không sấy tránh co rút sợi, khi phơi nên gấp ngang áo ko móc kéo tránh áo bị biến dạng",
@@ -123,7 +123,7 @@
       {
         "id": 13,
         "title": "BLACK OVERSIZED WASHED DENIM SHORT",
-        "price": "520,000 đ",
+        "price": 520000,
         "img": "./assets/images/BLACK OVERSIZED WASHED DENIM SHORT.jpg",
         "description1": "◾️ Quần short chất liệu denim, giặt bạc thành phầm sau khi may hoàn thiện. ",
         "description2": "◾️ Logo in lưới thủ công phía sau túi trái ",
@@ -133,7 +133,7 @@
       {
         "id": 14,
         "title": "DUO BEIGE WORKWEAR JACKET",
-        "price": "1,050,000 đ",
+        "price": 1050000,
         "img": "./assets/images/DUO BEIGE WORKWEAR JACKET.jpg",
         "description1": "Stretch cotton twill workwear jacket.",
         "description2": "Spread collar, Button closure, Logo embroidered at chest and back, Welt pockets, Adjustable button tab at cuffs and hem.",
@@ -143,7 +143,7 @@
       {
         "id": 15,
         "title": "CLASSIC STRIPED OVERSIZED BLAZER",
-        "price": "4,500,000 đ",
+        "price": 4500000,
         "img": "./assets/images/CLASSIC STRIPED OVERSIZED BLAZER.jpg",
         "description1": "Wool twill blazer. Stripes throughout.",
         "description2": "Peaked lapel collar, Double-breasted button closure, Welt pocket and flap pockets, Four-button surgeon cuffs, Double vent at back hem, Graphics printed satin , ",
@@ -153,7 +153,7 @@
       {
         "id": 16,
         "title": "HOLE PUNCHER BLACK JEANS",
-        "price": "950,000 đ",
+        "price": 950000,
         "img": "./assets/images/HOLE PUNCHER BLACK JEANS.jpg",
         "description1": "Non-stretch denim jeans. Fading, distressing effect throughout.",
         "description2": "Belt loops, Adjustable mini cinch belts at waist, Zip-fly, Five-pocket styling, Logo graphic pattern printed at outseams, Contrast stitching in tan",
@@ -163,7 +163,7 @@
       {
         "id": 17,
         "title": "CLASSIC STRIPED BLACK TAILORED PANTS",
-        "price": "1,250,000 đ",
+        "price": 1250000,
         "img": "./assets/images/HOLE PUNCHER BLACK TAILORED PANTS.jpg",
         "description1": "Wool twill flared pants. Stripes throughout.",
         "description2": "Belt loops, Adjustable mini cinch belts at waist, Zip-fly, Pleats at front",
@@ -173,7 +173,7 @@
       {
         "id": 18,
         "title": "CREAM GRADIENT EMBROIDRED HOODIE",
-        "price": "680,000 đ",
+        "price": 680000,
         "img": "./assets/images/CREAM GRADIENT EMBROIDRED HOODIE.jpg",
         "description1": "◾️ Tuft Stitch 3D logo mặt trước và sau, hình in nổi khối, tạo hiệu ứng lông bàn chải khi nhìn cận. Các chân thêu cố định, bền chắc, không bong tróc, bay màu khi giặt và sử dụng.",
         "description2": "◾️ Định lượng 420gsm siêu dày, tạo form dáng và giữ nhiệt tốt, mặt bông bên trong đã được xử lý giặt enzyme ngăn chặn mùn vải khi mặc.",
@@ -183,7 +183,7 @@
       {
         "id": 19,
         "title": "DUO NAVY SHORT SLEEVE SHIRT",
-        "price": "650,000 đ",
+        "price": 650000,
         "img": "./assets/images/DUO NAVY SHORT SLEEVE SHIRT.jpg",
         "description1": "◾️ Polyester and organic cotton-blend shirt.",
         "description2": "◾️ Spread collar, Press-stud closure at front, Logo-engraved black-tone hardware, Graphic printed at front, Logo embroidered at back",
@@ -193,7 +193,7 @@
       {
         "id": 20,
         "title": "STAR DECK",
-        "price": "780,000 đ",
+        "price": 780000,
         "img": "./assets/images/STAR DECK.jpg",
         "description1": "◾️ Ngoài dòng Premium các bạn đã trải nghiệm với công nghệ carbon cao cấp, Leninn nay cho ra mắt line sản phẩm mới với công nghệ rút gọn nhưng không cắt giảm chất lượng.",
         "description2": "◾️ Có tới hai lớp fiberglass (sợi thuỷ tinh) tăng độ đàn hồi, dẻo dai, kéo dài tuổi thọ mặt ván gấp nhiều lần so với các phiên bản cũ,giúp chống chịu lực siêu cao, giảm trọng lượng cho ván nhẹ hơn, gia tăng lực pop.",
@@ -203,7 +203,7 @@
       {
         "id": 21,
         "title": "PARADOL DECK",
-        "price": "780,000 đ",
+        "price": 780000,
         "img": "./assets/images/PARADOL DECK.jpg",
         "description1": "◾️ Ngoài dòng Premium các bạn đã trải nghiệm với công nghệ carbon cao cấp, Leninn nay cho ra mắt line sản phẩm mới với công nghệ rút gọn nhưng không cắt giảm chất lượng.",
         "description2": "◾️ Có tới hai lớp fiberglass (sợi thuỷ tinh) tăng độ đàn hồi, dẻo dai, kéo dài tuổi thọ mặt ván gấp nhiều lần so với các phiên bản cũ,giúp chống chịu lực siêu cao, giảm trọng lượng cho ván nhẹ hơn, gia tăng lực pop.",
@@ -213,7 +213,7 @@
       {
         "id": 22,
         "title": "LENINN SKATEBAG",
-        "price": "150,000 đ",
+        "price": 150000,
         "img": "./assets/images/LENINN SKATEBAG.png",
         "description1": "",
         "description2": "",
@@ -223,7 +223,7 @@
       {
         "id": 23,
         "title": "BLACK DUCK DUCK CUP",
-        "price": "250,000 đ",
+        "price": 250000,
         "img": "./assets/images/BLACK DUCK DUCK CUP.jpg",
         "description1": "◾️ Chất liệu: Sứ.",
         "description2": "◾️ Cốc sứ có quai tròn, chất liệu sứ cao cấp dày và chắc chắn",
@@ -233,7 +233,7 @@
       {
         "id": 24,
         "title": "RED MINDS CUP",
-        "price": "250,000 đ",
+        "price": 250000,
         "img": "./assets/images/RED MINDS CUP.jpg",
         "description1": "◾️ 330ml",
         "description2": "◾️ 100% Ceramic",
