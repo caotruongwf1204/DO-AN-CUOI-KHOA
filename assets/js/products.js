@@ -15,8 +15,11 @@ getApi(URL_API);
 // products
 const products = (data) => {
   const productsListing = document.querySelector("#listing-product-js");
+  
   let HTML = ``;
   data.forEach((item) => {
+    const priceCall = item.price;
+    const productPrice = priceCall.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
     HTML += `
     <div class="col-6 col-sm-6 col-md-3">
       <a href="./detail.html?id=${item.id}">
@@ -25,7 +28,7 @@ const products = (data) => {
           <div class="card-body">
             <div class="content">
               <div div class="card-title">${item.title}</div>
-              <div class="price">${item.price}</div>
+              <div class="price">${productPrice}</div>
             </div>
           </div>
         </div>

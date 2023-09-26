@@ -3,17 +3,17 @@ const URL_API = `http://localhost:3000/lenin`;
 const getApi = async (URL_API) => {
   const response = await axios.get(URL_API);
 
-  home(response.data);
+  relate(response.data);
 }
 getApi(URL_API);
 
 
 
-const home = (data) => {
-  const homeListing = document.querySelector("#home-listing-js");
+const relate = (data) => {
+  const detailRelate = document.querySelector("#relate-js");
   let HTML = ``;
   data.forEach((item, index) => {
-    if(index > 7) {
+    if(index > 3) {
       return
     }
     const priceCall = item.price;
@@ -33,7 +33,7 @@ const home = (data) => {
         </a>
       </div>
         `;
-    homeListing.innerHTML = HTML;
+        detailRelate.innerHTML = HTML;
   });
 };
-home();
+relate();

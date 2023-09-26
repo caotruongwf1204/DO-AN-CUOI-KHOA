@@ -5,11 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const API_DETAI = `http://localhost:3000/lenin/${id}`;
 
-  // window.addEventListener('beforeunload', function (event) {
-  //   if(currentValueInput > 1) event.returnValue = 'Are you sure you want to leave this page?';
-  //   currentValueInput = 1;
-  //   console.log("hhhhhhh")
-  // });
+
 
   const getApi = async (URL_API) => {
     const response = await axios.get(URL_API);
@@ -26,7 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const showDetailJs = (item) => {
     const detailImg = item.img;
     const detailTitle = item.title;
-    const detailPrice = item.price;
+    const priceCall = item.price;
+    const detailPrice = priceCall.toLocaleString('vi-VN', {
+      style: 'currency',
+      currency: 'VND'
+    });
     const detailDes1 = item.description1;
     const detailDes2 = item.description2;
     const detailDes3 = item.description3;
@@ -58,31 +58,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-  // var selectElement = document.getElementById("mySelect");
-
-  // Get the selected option's value
-  // var selectedValue = selectElement.value;
-
-  // // Display the selected value
-  // document.getElementById("selectedValue").textContent = selectedValue;
-
-
-// const sizeSelectEl = document.querySelector("#sizeSelect")
-//  sizeSelectEl.addEventListener(`click`,() => {
-//   sizeSelectEl.getvalue(``);
-// })
 
 
   const addToCart = document.querySelector('.detail-add');
   addToCart.addEventListener('click', () => {
-    // console.log("Added", selectedValue)
 
     const getData = localStorage.getItem('products');
     console.log("OOOOOOOOOOOOO", id)
     const dataJson = JSON.parse(getData);
     console.log("dataJson", dataJson);
     addToLocalStorage(id, dataJson, currentValueInput, "M")
-    
+
     console.log("getData", localStorage.getItem('products'))
   })
   const addToLocalStorage = (productId, oldListProd, numberItem, size) => {
@@ -93,17 +79,17 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("listProducts", listProducts)
     const product = {
       "id": productId,
-      "numberProductI": numberItem,
+      "numberProduct": numberItem,
       "size": size
     }
     let existingItem;
     if (listProducts.length > 0) {
-      console.log("listProducts")
+
       existingItem = oldListProd.find(item => item.id === product.id);
       if (existingItem) {
         for (let i = 0; i < listProducts.length; i++) {
           if (listProducts[i].id === productId) {
-            listProducts[i].numberProductI = (parseInt(listProducts[i].numberProductI) + parseInt(numberItem)).toString();
+            listProducts[i].numberProduct = (parseInt(listProducts[i].numberProduct) + parseInt(numberItem)).toString();
           }
         }
       } else {
@@ -176,13 +162,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const dataJson = JSON.parse(getData);
     console.log("dataJson", dataJson);
     addToLocalStorage(id, dataJson, currentValueInput, "M")
-    
+
     console.log("getData", localStorage.getItem('products'))
     window.location.href = 'cart.html';
-    // console.log("Cart#")
-    // localStorage.removeItem('products');
-    // console.log("Cart")
-
   });
+
+
+
+
+
+
+
+ 
 
 });
