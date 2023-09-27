@@ -83,7 +83,12 @@ const products = (data) => {
 };
 
 
-
+const submit = document.querySelector(".btn-money");
+submit.addEventListener("click", () => {
+  console.log("??????????");
+  localStorage.clear();
+  window.location.href = "index.html";
+});
 
 
 
